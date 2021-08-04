@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: 'Lato', sans-serif;
+   }
+   .py-5 , .py4{
+       padding: 10px 0 !important;
+   }
+   .btn:focus{
+       box-shadow: none;
+   }
+   
+   .btn{
+       outline: none !important;
+   }
+   a:hover{
+       text-decoration: none;
+   }
+   .topbar-row{
+       align-items: center;
+   }
+   .user-icon{
+       display: inline-block;
+       height: 30px;
+       width: 30px;
+       background: #d6d6d6;
+       color: #d5652c;
+       border-radius: 50%;
+       position: relative;
+       margin-left: 20px;
+   }
+   .user-icon-btn span{
+       margin-left: 5px;
+       color: #000;
+   }
+   .fa-user{
+       top: 50%;
+       position: absolute;
+       left: 50%;
+       transform: translate(-50%, -50%);
+   }
+.topbar-right , .topbar-middle{
+    display: flex;
+    align-items: center;
+}
+form{
+    display: flex;
+    width: 100%;
+}
+.search-box{
+    outline: none;
+    width: 70%;
+    padding: 5px 0;
+    padding-left: 10px;
+    border: 1px solid #666;
+    border-radius: 5px 0 0 5px;
+}
+.search-class{
+    background-color: #d5652c;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+.search-class:hover{
+    color: #fff;
+}
+.search-class i{
+    margin-right: 5px;
+}
+.user-icon-btn{
+    display: contents;
+}
+.topbar-middle-special{
+    display: none;
+}
+.cart-btn{
+    background-color: #73c7ae;
+    color: #fff;
+}
+.cart-btn i{
+    margin-right: 5px;
+}
+/* nav */
+.nav-bg{
+    background-color: #d5652c;
+}
+
+.nav-link{
+    color: #fff !important;
+}
+.cart-btn:hover{
+    color: #fff;
+}
+.navbar-toggler-right{
+    border: none;
+    outline: none !important;
+}
+/* nav */
+/* banner */
+.banner{
+    margin-bottom: 20px;
+}
+.owl-nav , .owl-dots{
+    display: none;
+}
+
+/* banner */
+
+/* catagories */
+.catagories{
+    margin-bottom: 50px;
+}
+.box{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 400ms;
+}
+.box h3{
+    font-size: 28px;
+    font-weight: 700;
+}
+.box h5{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.box:hover{
+    transform: scale(1.05);
+}
+.box-text{
+    text-align: center;
+    color: #fff;
+    padding: 190px 0 0 0;
+}
+.box-text h3{
+    margin: 0;
+}
+.box-1{
+    background-image: url(../img/card-back-1.jpg);
+}
+.box-2{
+    background-image: url(../img/card-back-2.jpg);
+}
+.box-3{
+    background-image: url(../img/card-back-3.jpg);
+}
+/* catagories */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .topbar-middle-special{
+        display: flex !important;
+        justify-content: center;
+    }
+    .topbar-middle{
+        display: none;
+    }
+    .topbar-right{
+        justify-content: flex-end;
+    }
+    .logo{
+        margin-bottom: 10px;
+    }
+    form{
+        justify-content: center;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
